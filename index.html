@@ -2,652 +2,801 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Heend Made — أكثر من مجرد براند Handmade</title>
-<meta name="description" content="Heend Made منظومة متكاملة تجمع المصممين، التسويق، المبيعات، خدمة العملاء، تحليل البيانات والإدارة لبناء Brand قابل للنمو." />
-<meta name="keywords" content="Heend Made, Handmade, براند يدوي, تسويق, مبيعات, تحليل بيانات" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#3B2417" />
+
+<title>Heend Made | Handmade Brand & Creative Business Community</title>
+<meta name="description" content="Heend Made connects handmade designers, sales, marketing, content, data, and operations to build a growing handmade business ecosystem." />
+<meta name="keywords" content="Heend Made, Handmade, Handmade Egypt, Marketing, Sales, Community, Data Analysis, Handmade Brand" />
 <meta name="author" content="Heend Made" />
-<meta property="og:title" content="Heend Made — أكثر من مجرد براند Handmade" />
-<meta property="og:description" content="منظومة متكاملة لبناء Brand Handmade قابل للنمو." />
+<link rel="canonical" href="https://heendmade.example/" />
+
+<!-- Open Graph -->
 <meta property="og:type" content="website" />
+<meta property="og:title" content="Heend Made | Handmade Brand & Creative Business Community" />
+<meta property="og:description" content="مش مجرد بيدج Handmade... إحنا بنبني منظومة كاملة." />
+<meta property="og:locale" content="ar_EG" />
+<meta property="og:url" content="https://heendmade.example/" />
+<meta property="og:image" content="https://heendmade.example/og.jpg" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Heend Made" />
+<meta name="twitter:description" content="Handmade, but built like a business." />
+
+<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css" />
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="style.css" />
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Heend Made",
+  "description": "Handmade brand & creative business community connecting designers, content, marketing, sales, data, and operations.",
+  "url": "https://heendmade.example/",
+  "sameAs": ["https://wa.me/201012932133"]
+}
+</script>
 </head>
 <body>
 
-<!-- ===== NAV ===== -->
-<header class="nav" id="nav">
-  <div class="nav__container">
-    <a href="#hero" class="nav__logo">
-      <span class="nav__logo-mark">H</span>
-      <span class="nav__logo-text">Heend Made</span>
+<!-- ===== Floating WhatsApp ===== -->
+<a class="wa-float" href="https://wa.me/201012932133?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%B4%D9%88%D9%81%D8%AA%20Heend%20Made%20%D9%88%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D8%B9%D8%B1%D9%81%20%D8%A3%D9%83%D8%AA%D8%B1." target="_blank" rel="noopener" aria-label="تواصل واتساب">
+  <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+    <path fill="currentColor" d="M20.5 3.5A11.9 11.9 0 0 0 12 0C5.4 0 .1 5.3.1 11.9c0 2.1.6 4.1 1.6 5.9L0 24l6.4-1.7c1.7.9 3.6 1.4 5.6 1.4 6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.1-3.4-8.3zM12 21.4c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.8 1 1-3.7-.2-.4a9.5 9.5 0 0 1-1.5-5.1c0-5.3 4.3-9.6 9.6-9.6 2.6 0 5 1 6.8 2.8a9.5 9.5 0 0 1 2.8 6.8c.3 5.4-4 9.8-9.3 9.8zm5.3-7.2c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.8-.8-1.4-1.7-1.6-2-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 5 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.1-1.4-.1-.1-.3-.2-.6-.3z"/>
+  </svg>
+</a>
+
+<!-- ===== Back to Top ===== -->
+<button class="back-top" aria-label="الرجوع للأعلى" id="backTop">
+  <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 5l7 7-1.4 1.4L13 8.8V19h-2V8.8L6.4 13.4 5 12z"/></svg>
+</button>
+
+<!-- ===== Navbar ===== -->
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo" aria-label="Heend Made">
+      <span class="logo-mark" aria-hidden="true">H</span>
+      <span class="logo-text">Heend <em>Made</em></span>
     </a>
-    <nav class="nav__menu" id="navMenu">
-      <a href="#about">الفكرة</a>
-      <a href="#problem">المشكلة</a>
-      <a href="#flow">كيف نعمل</a>
-      <a href="#teams">الفرق</a>
-      <a href="#data">البيانات</a>
-      <a href="#marketing">التسويق</a>
-      <a href="#vip">VIP</a>
-      <a href="#join" class="nav__cta">انضم إلينا</a>
+
+    <nav class="nav-links" id="navLinks" aria-label="التنقل الرئيسي">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#idea" class="nav-link">الفكرة</a>
+      <a href="#how" class="nav-link">بنشتغل إزاي؟</a>
+      <a href="#teams" class="nav-link">الفرق</a>
+      <a href="#community" class="nav-link">الـCommunity</a>
+      <a href="#data" class="nav-link">الـData</a>
+      <a href="#marketing" class="nav-link">الـMarketing</a>
+      <a href="#roadmap" class="nav-link">الـRoadmap</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+      <a class="btn btn-primary nav-cta" href="https://wa.me/201012932133?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%B4%D9%88%D9%81%D8%AA%20Heend%20Made%20%D9%88%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D8%B9%D8%B1%D9%81%20%D8%A3%D9%83%D8%AA%D8%B1%20%D8%B9%D9%86%20%D9%81%D8%B1%D8%B5%20%D8%A7%D9%84%D8%A7%D9%86%D8%B6%D9%85%D8%A7%D9%85." target="_blank" rel="noopener">عايز تنضم؟ 👀</a>
     </nav>
-    <button class="nav__toggle" id="navToggle" aria-label="القائمة">
+
+    <button class="hamburger" id="hamburger" aria-label="القائمة" aria-expanded="false" aria-controls="navLinks">
       <span></span><span></span><span></span>
     </button>
   </div>
 </header>
 
-<!-- ===== HERO ===== -->
-<section class="hero" id="hero">
-  <div class="hero__bg" aria-hidden="true">
-    <svg class="hero__grid" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
-      <defs>
-        <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
-          <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(90,60,40,.08)" stroke-width="1"/>
-        </pattern>
-      </defs>
-      <rect width="1200" height="800" fill="url(#grid)" />
-    </svg>
-    <div class="hero__blob hero__blob--1"></div>
-    <div class="hero__blob hero__blob--2"></div>
-  </div>
+<main>
 
-  <div class="hero__inner">
-    <div class="hero__text">
-      <span class="eyebrow">Interactive Business Presentation</span>
-      <h1 class="hero__title">
-        <span class="hero__title-brand">Heend Made</span>
-        <span class="hero__title-sub">أكثر من مجرد براند Handmade</span>
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="hero-text reveal">
+      <span class="eyebrow">Handmade • System • Community</span>
+      <h1 class="hero-title">
+        Heend Made
+        <span class="hero-sub">مش مجرد بيدج Handmade... إحنا بنبني منظومة كاملة 👀</span>
       </h1>
-      <p class="hero__desc">
-        منظومة متكاملة تجمع المصممين، التسويق، المبيعات، خدمة العملاء،
-        تحليل البيانات والإدارة لبناء Brand قابل للنمو.
+      <p class="lead">
+        بص يا سيدي، إحنا مش عايزين نبيع شنطة ونخلص 😂<br />
+        إحنا عايزين نبني <strong>Team</strong> كامل حوالين الـHandmade...
       </p>
-      <div class="hero__actions">
-        <a href="#about" class="btn btn--primary">اكتشف الفكرة</a>
-        <a href="#join" class="btn btn--ghost">انضم إلى الفريق</a>
+      <p class="muted">
+        ناس بتصمم، وناس بتصور، وناس بتعمل Marketing، وناس بتبيع، وناس بتحلل الـData، وناس بتتابع العملاء...
+        وكل واحد فيهم بيزود حتة في الصورة.
+      </p>
+      <div class="hero-cta">
+        <a href="#idea" class="btn btn-primary">عايز أعرف الحكاية</a>
+        <a class="btn btn-ghost" href="https://wa.me/201012932133?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%B4%D9%88%D9%81%D8%AA%20Heend%20Made%20%D9%88%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D8%B9%D8%B1%D9%81%20%D8%A3%D9%83%D8%AA%D8%B1%20%D8%B9%D9%86%20%D9%81%D8%B1%D8%B5%20%D8%A7%D9%84%D8%A7%D9%86%D8%B6%D9%85%D8%A7%D9%85." target="_blank" rel="noopener">عايز أنضم 👀</a>
       </div>
 
-      <ul class="hero__stats">
-        <li><strong data-count="8">0</strong><span>Teams متخصصة</span></li>
-        <li><strong data-count="17">0</strong><span>مرحلة نمو</span></li>
-        <li><strong data-count="100">0</strong><span>% تعاون</span></li>
+      <ul class="hero-stats">
+        <li><span class="dot"></span> Handmade بتفكير Business</li>
+        <li><span class="dot"></span> Community بتشارك في القرار</li>
+        <li><span class="dot"></span> Data بدل "أنا حاسس"</li>
       </ul>
     </div>
 
-    <div class="hero__diagram">
-      <svg viewBox="0 0 500 500" class="hero__flow" aria-hidden="true">
-        <defs>
-          <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0" stop-color="#c9a27a" />
-            <stop offset="1" stop-color="#5a3c28" />
-          </linearGradient>
-        </defs>
-        <!-- connecting lines -->
-        <g stroke="url(#lineGrad)" stroke-width="1.5" fill="none" stroke-dasharray="6 6">
-          <path d="M250 80 C 380 80, 420 180, 420 250" />
-          <path d="M420 250 C 420 350, 350 420, 250 420" />
-          <path d="M250 420 C 150 420, 80 350, 80 250" />
-          <path d="M80 250 C 80 150, 120 80, 250 80" />
-        </g>
-        <!-- nodes -->
-        <g class="hero__nodes">
-          <g transform="translate(250 80)"><circle r="34" /><text>Designer</text></g>
-          <g transform="translate(420 250)"><circle r="34" /><text>Content</text></g>
-          <g transform="translate(250 420)"><circle r="34" /><text>Marketing</text></g>
-          <g transform="translate(80 250)"><circle r="34" /><text>Sales</text></g>
-          <g transform="translate(335 165)"><circle r="26" /><text class="small">Customers</text></g>
-          <g transform="translate(335 335)"><circle r="26" /><text class="small">Data</text></g>
-          <g transform="translate(165 335)"><circle r="26" /><text class="small">Growth</text></g>
-          <g transform="translate(165 165)"><circle r="26" /><text class="small">Support</text></g>
-        </g>
-        <circle class="hero__pulse" cx="250" cy="250" r="8" fill="#5a3c28" />
-      </svg>
+    <div class="hero-visual reveal delay-1" aria-hidden="true">
+      <div class="system-diagram">
+        <div class="sys-node">Designer</div>
+        <div class="sys-arrow">↓</div>
+        <div class="sys-node">Content</div>
+        <div class="sys-arrow">↓</div>
+        <div class="sys-node">Marketing</div>
+        <div class="sys-arrow">↓</div>
+        <div class="sys-node">Customers</div>
+        <div class="sys-arrow">↓</div>
+        <div class="sys-node">Sales</div>
+        <div class="sys-arrow">↓</div>
+        <div class="sys-node">Data</div>
+        <div class="sys-arrow">↓</div>
+        <div class="sys-node accent">Better Decisions</div>
+        <div class="sys-arrow">↓</div>
+        <div class="sys-node success">Growth 🚀</div>
+      </div>
     </div>
   </div>
-
-  <div class="hero__scroll">
-    <span>اسحب للأسفل</span>
-    <svg width="16" height="24" viewBox="0 0 16 24"><path d="M8 2 v16 m-5 -5 l5 5 l5 -5" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+  <div class="hero-bg" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="grid-dots"></div>
   </div>
 </section>
 
-<!-- ===== ABOUT / ECOSYSTEM ===== -->
-<section class="section about" id="about">
+<!-- ===== IDEA ===== -->
+<section class="section" id="idea">
   <div class="container">
-    <span class="eyebrow reveal">ما هي Heend Made؟</span>
-    <h2 class="section__title reveal">
-      منظومة <em>متكاملة</em> حول منتجات الـ Handmade
-    </h2>
-    <p class="section__lead reveal">
-      بدل ما يكون الـ Designer مسؤولًا عن التصميم + التصوير + التسويق + الرد على العملاء + البيع + متابعة الطلب + الشحن + تحليل النتائج،
-      نقسم المسؤوليات على <strong>Teams متخصصة</strong>.
-    </p>
+    <header class="section-head reveal">
+      <span class="eyebrow">01 — الفكرة</span>
+      <h2>طب هي Heend Made دي إيه؟</h2>
+      <p class="section-sub">بص، خلينا نبسطهالك...</p>
+    </header>
 
-    <div class="ecosystem reveal">
-      <svg viewBox="0 0 800 800" class="ecosystem__svg" aria-hidden="true">
-        <defs>
-          <radialGradient id="coreGrad" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#f4e6d5" />
-            <stop offset="100%" stop-color="#e2c9a8" />
-          </radialGradient>
-        </defs>
-        <g class="eco-lines" stroke="#c9a27a" stroke-width="1.2" fill="none" stroke-dasharray="4 6"></g>
-        <circle cx="400" cy="400" r="90" fill="url(#coreGrad)" stroke="#5a3c28" stroke-width="1.5"/>
-        <text x="400" y="395" text-anchor="middle" class="eco-core-title">HEEND</text>
-        <text x="400" y="420" text-anchor="middle" class="eco-core-title">MADE</text>
-      </svg>
-      <div class="ecosystem__nodes" id="ecosystemNodes"></div>
+    <div class="prose reveal delay-1">
+      <p>
+        تخيل إن عندك حد بيعرف يعمل Handmade Products تحفة...
+        بس مفيش Marketing. مفيش Content. مفيش حد يرد على العملاء. مفيش حد يحلل المبيعات.
+        ومفيش حد يقولنا أصلًا الناس بتحب إيه.
+      </p>
+      <p class="callout">
+        هنا بقى بنقول: <strong>ليه كل واحد يشتغل لوحده؟</strong><br />
+        ما نعمل Team وكل واحد يعمل الحاجة اللي بيعرف يعملها؟
+      </p>
+    </div>
+
+    <div class="compare">
+      <div class="compare-card reveal">
+        <h3 class="compare-title before">قبل Heend Made</h3>
+        <ul class="chain">
+          <li>Designer</li>
+          <li class="arrow">↓</li>
+          <li>يعمل المنتج</li>
+          <li class="arrow">↓</li>
+          <li>يحاول يبيع</li>
+          <li class="arrow">↓</li>
+          <li>يعمل Content</li>
+          <li class="arrow">↓</li>
+          <li>يرد على العملاء</li>
+          <li class="arrow">↓</li>
+          <li>يتابع الطلب</li>
+          <li class="arrow">↓</li>
+          <li class="bad">يتوه 😂</li>
+        </ul>
+      </div>
+
+      <div class="compare-card reveal delay-1">
+        <h3 class="compare-title after">مع Heend Made</h3>
+        <ul class="chain">
+          <li>Designer <span class="tag">→ Product</span></li>
+          <li>Content Team <span class="tag">→ Content</span></li>
+          <li>Marketing <span class="tag">→ Reach</span></li>
+          <li>Sales <span class="tag">→ Orders</span></li>
+          <li>Customer Support <span class="tag">→ Follow-up</span></li>
+          <li>Data <span class="tag">→ Insights</span></li>
+          <li>Management <span class="tag">→ Better Decisions</span></li>
+          <li class="good">Growth 🚀</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- ===== PROBLEM ===== -->
-<section class="section problem" id="problem">
+<section class="section alt" id="problem">
   <div class="container">
-    <span class="eyebrow reveal">المشكلة</span>
-    <h2 class="section__title reveal">لماذا نحتاج هذا النظام؟</h2>
+    <header class="section-head reveal">
+      <span class="eyebrow">02 — المشكلة</span>
+      <h2>طب إيه المشكلة أصلًا؟</h2>
+      <p class="section-sub">مش مشكلة واحدة... دي خمسة.</p>
+    </header>
 
-    <div class="problem__grid">
-      <div class="problem__card problem__card--chaos reveal">
-        <h3>قبل Heend Made</h3>
-        <p class="problem__desc">مصمم واحد يحاول عمل كل شيء.</p>
-        <div class="chaos" id="chaos">
-          <div class="chaos__center">
-            <span>Designer</span>
-          </div>
-          <div class="chaos__bubble" style="--x:-180px;--y:-140px">Design</div>
-          <div class="chaos__bubble" style="--x:120px;--y:-160px">Marketing</div>
-          <div class="chaos__bubble" style="--x:-200px;--y:0px">Sales</div>
-          <div class="chaos__bubble" style="--x:180px;--y:20px">Messages</div>
-          <div class="chaos__bubble" style="--x:-140px;--y:140px">Shipping</div>
-          <div class="chaos__bubble" style="--x:100px;--y:170px">Content</div>
-          <div class="chaos__bubble" style="--x:0px;--y:-190px">Customers</div>
-          <div class="chaos__bubble" style="--x:210px;--y:-60px">Data</div>
-        </div>
-      </div>
-
-      <div class="problem__arrow reveal">
-        <svg viewBox="0 0 60 120"><path d="M30 5 v90 m-15 -15 l15 15 l15 -15" stroke="#5a3c28" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
-      </div>
-
-      <div class="problem__card problem__card--order reveal">
-        <h3>مع Heend Made</h3>
-        <p class="problem__desc">كل شخص يركز على تخصصه.</p>
-        <div class="order">
-          <div class="order__row">
-            <span class="order__dot" style="--c:#5a3c28"></span> Designer
-            <span class="order__tag">المنتج</span>
-          </div>
-          <div class="order__row">
-            <span class="order__dot" style="--c:#c9a27a"></span> Content
-            <span class="order__tag">المحتوى</span>
-          </div>
-          <div class="order__row">
-            <span class="order__dot" style="--c:#a87550"></span> Marketing
-            <span class="order__tag">الوصول</span>
-          </div>
-          <div class="order__row">
-            <span class="order__dot" style="--c:#8c5c3a"></span> Sales
-            <span class="order__tag">الأوردرات</span>
-          </div>
-          <div class="order__row">
-            <span class="order__dot" style="--c:#d9bf9a"></span> Support
-            <span class="order__tag">العلاقة</span>
-          </div>
-          <div class="order__row">
-            <span class="order__dot" style="--c:#5a3c28"></span> Data
-            <span class="order__tag">القرارات</span>
-          </div>
-        </div>
-      </div>
+    <div class="grid cards-5">
+      <article class="card reveal">
+        <span class="card-num">01</span>
+        <h3>منتج حلو... محدش شافه</h3>
+        <p>واحد بيعرف يعمل منتج حلو... بس محدش عارف إنه موجود.</p>
+      </article>
+      <article class="card reveal delay-1">
+        <span class="card-num">02</span>
+        <h3>Customers بدون Data</h3>
+        <p>واحد عنده Customers... بس مش عارف يستفيد من الـData.</p>
+      </article>
+      <article class="card reveal delay-2">
+        <span class="card-num">03</span>
+        <h3>بيع بدون منتجات</h3>
+        <p>واحد بيعرف يبيع... بس مفيش Products كويسة قدامه.</p>
+      </article>
+      <article class="card reveal delay-3">
+        <span class="card-num">04</span>
+        <h3>Marketing بدون System</h3>
+        <p>واحد شاطر في Marketing... بس مفيش System واضح.</p>
+      </article>
+      <article class="card reveal delay-4">
+        <span class="card-num">05</span>
+        <h3>كل واحد لوحده</h3>
+        <p>كل واحد بيشتغل لوحده... والنتيجة معروفة.</p>
+      </article>
     </div>
+
+    <p class="center-note reveal">إحنا عايزين نحل ده كله في مكان واحد.</p>
   </div>
 </section>
 
-<!-- ===== FLOW ===== -->
-<section class="section flow" id="flow">
+<!-- ===== HOW ===== -->
+<section class="section" id="how">
   <div class="container">
-    <span class="eyebrow reveal">كيف تعمل المنظومة؟</span>
-    <h2 class="section__title reveal">رحلة المنتج من الفكرة إلى النمو</h2>
+    <header class="section-head reveal">
+      <span class="eyebrow">03 — النظام</span>
+      <h2>طب إحنا بنشتغل إزاي؟</h2>
+      <p class="section-sub">عجلة بسيطة... بتلف صح.</p>
+    </header>
 
-    <div class="flowline" id="flowline">
-      <div class="flowline__item reveal"><span class="flowline__ico">🧵</span><span>Designer</span></div>
-      <div class="flowline__arrow reveal"></div>
-      <div class="flowline__item reveal"><span class="flowline__ico">📦</span><span>Product</span></div>
-      <div class="flowline__arrow reveal"></div>
-      <div class="flowline__item reveal"><span class="flowline__ico">🎨</span><span>Content</span></div>
-      <div class="flowline__arrow reveal"></div>
-      <div class="flowline__item reveal"><span class="flowline__ico">📣</span><span>Marketing</span></div>
-      <div class="flowline__arrow reveal"></div>
-      <div class="flowline__item reveal"><span class="flowline__ico">👥</span><span>Customers</span></div>
-      <div class="flowline__arrow reveal"></div>
-      <div class="flowline__item reveal"><span class="flowline__ico">💬</span><span>Support</span></div>
-      <div class="flowline__arrow reveal"></div>
-      <div class="flowline__item reveal"><span class="flowline__ico">💰</span><span>Sales</span></div>
-      <div class="flowline__arrow reveal"></div>
-      <div class="flowline__item reveal"><span class="flowline__ico">🚚</span><span>Shipping</span></div>
-      <div class="flowline__arrow reveal"></div>
-      <div class="flowline__item reveal"><span class="flowline__ico">❤️</span><span>Experience</span></div>
-      <div class="flowline__arrow reveal"></div>
-      <div class="flowline__item reveal"><span class="flowline__ico">📊</span><span>Data</span></div>
-      <div class="flowline__arrow reveal"></div>
-      <div class="flowline__item reveal"><span class="flowline__ico">🧠</span><span>Insights</span></div>
-      <div class="flowline__arrow reveal"></div>
-      <div class="flowline__item reveal flowline__item--final"><span class="flowline__ico">🚀</span><span>Growth</span></div>
+    <div class="pipeline" id="pipeline" aria-label="خط الإنتاج">
+      <div class="pipe-step" data-i="1"><span>Designer</span></div>
+      <div class="pipe-arrow">↓</div>
+      <div class="pipe-step" data-i="2"><span>Product</span></div>
+      <div class="pipe-arrow">↓</div>
+      <div class="pipe-step" data-i="3"><span>Content</span><em>Photos / Videos / Reels</em></div>
+      <div class="pipe-arrow">↓</div>
+      <div class="pipe-step" data-i="4"><span>Marketing</span><em>Reach / Awareness</em></div>
+      <div class="pipe-arrow">↓</div>
+      <div class="pipe-step" data-i="5"><span>Customers</span><em>Messages / Questions</em></div>
+      <div class="pipe-arrow">↓</div>
+      <div class="pipe-step" data-i="6"><span>Sales</span><em>Orders</em></div>
+      <div class="pipe-arrow">↓</div>
+      <div class="pipe-step" data-i="7"><span>Data</span><em>Analysis</em></div>
+      <div class="pipe-arrow">↓</div>
+      <div class="pipe-step" data-i="8"><span>Decisions</span></div>
+      <div class="pipe-arrow">↓</div>
+      <div class="pipe-step" data-i="9"><span>New Products / Better Marketing</span></div>
+      <div class="pipe-arrow">↓</div>
+      <div class="pipe-step success" data-i="10"><span>Growth 🔥</span></div>
     </div>
   </div>
 </section>
 
 <!-- ===== TEAMS ===== -->
-<section class="section teams" id="teams">
+<section class="section alt" id="teams">
   <div class="container">
-    <span class="eyebrow reveal">الفرق</span>
-    <h2 class="section__title reveal">فريق واحد... تخصصات متعددة</h2>
+    <header class="section-head reveal">
+      <span class="eyebrow">04 — الفرق</span>
+      <h2>طيب مين هيشتغل في الكلام ده كله؟ 😂</h2>
+      <p class="section-sub">كل فريق ليه دور... وكل دور ليه تأثير.</p>
+    </header>
 
-    <div class="teams__grid" id="teamsGrid"></div>
-  </div>
-</section>
-
-<!-- ===== DATA (big) ===== -->
-<section class="section data" id="data">
-  <div class="container">
-    <span class="eyebrow reveal">Data Analysis</span>
-    <h2 class="section__title reveal">كيف يمكن للـ Data أن تغير طريقة اتخاذ القرار؟</h2>
-    <p class="section__lead reveal">
-      البيانات لا تخبرنا فقط بما حدث... بل تساعدنا على معرفة ماذا نفعل بعد ذلك.
-    </p>
-
-    <div class="funnel reveal" id="funnel">
-      <div class="funnel__step" style="--w:100%"><span>Views</span><b>10,000</b></div>
-      <div class="funnel__step" style="--w:80%"><span>Profile Visits</span><b>500</b></div>
-      <div class="funnel__step" style="--w:62%"><span>Messages</span><b>150</b></div>
-      <div class="funnel__step" style="--w:46%"><span>Leads</span><b>50</b></div>
-      <div class="funnel__step" style="--w:30%"><span>Orders</span><b>20</b></div>
-      <div class="funnel__step funnel__step--last" style="--w:18%"><span>Repeat</span><b>7</b></div>
-    </div>
-
-    <p class="data__note reveal">
-      أرقام توضيحية وليست بيانات فعلية لـ Heend Made.
-    </p>
-
-    <div class="data__loop reveal">
-      <div class="data__loop-item">Data</div>
-      <div class="data__loop-item">Insights</div>
-      <div class="data__loop-item">Decisions</div>
-      <div class="data__loop-item">Experiments</div>
-      <div class="data__loop-item data__loop-item--accent">Growth</div>
+    <div class="grid teams-grid">
+      <article class="team-card reveal"><span class="ico">🧵</span><h3>Handmade Designers</h3><p>الناس اللي بتعمل المنتجات.</p></article>
+      <article class="team-card reveal delay-1"><span class="ico">📱</span><h3>Marketing</h3><p>الناس اللي بتخلي الناس تعرف إن المنتج موجود أصلًا 😂</p></article>
+      <article class="team-card reveal delay-2"><span class="ico">🎬</span><h3>Content Creation</h3><p>صور، Reels، Stories، Videos.</p></article>
+      <article class="team-card reveal delay-3"><span class="ico">💰</span><h3>Sales</h3><p>الناس اللي بتحول الـInterest إلى Orders.</p></article>
+      <article class="team-card reveal"><span class="ico">💬</span><h3>Customer Support</h3><p>الناس اللي بترد وتتابع العملاء.</p></article>
+      <article class="team-card reveal delay-1"><span class="ico">📊</span><h3>Data Analysis</h3><p>الناس اللي بتبص على الأرقام بدل "حاسس إن المنتج ده هيبيع" 😂</p></article>
+      <article class="team-card reveal delay-2"><span class="ico">🎨</span><h3>Graphic Design</h3><p>الهوية والتصميمات.</p></article>
+      <article class="team-card reveal delay-3"><span class="ico">🎥</span><h3>Video Editing</h3><p>تحويل الفيديو الخام لحاجة تخلي الناس تكمل الـReel.</p></article>
+      <article class="team-card reveal"><span class="ico">💻</span><h3>Developer / Tech</h3><p>الموقع، الأدوات، الأنظمة، الأتمتة.</p></article>
+      <article class="team-card reveal delay-1"><span class="ico">⚙️</span><h3>Operations</h3><p>تنظيم الشغل وربط كل الفرق ببعض.</p></article>
+      <article class="team-card reveal delay-2"><span class="ico">👑</span><h3>Management</h3><p>تحديد الاتجاه ومتابعة إن كل حاجة ماشية.</p></article>
     </div>
   </div>
 </section>
 
-<!-- ===== MARKETING ===== -->
-<section class="section marketing" id="marketing">
+<!-- ===== IMPACT CHAIN ===== -->
+<section class="section" id="impact">
   <div class="container">
-    <span class="eyebrow reveal">Marketing</span>
-    <h2 class="section__title reveal">خطة التسويق</h2>
+    <header class="section-head reveal">
+      <span class="eyebrow">05 — التأثير</span>
+      <h2>ومش لازم تكون Sales علشان يكون ليك تأثير.</h2>
+      <p class="section-sub">كل واحد بيزق العجلة حتة.</p>
+    </header>
 
-    <div class="mkfunnel reveal" id="mkfunnel">
-      <div class="mkfunnel__row" data-stage="Awareness">
-        <div class="mkfunnel__label">Awareness</div>
-        <div class="mkfunnel__chips">
-          <span>Instagram</span><span>Facebook</span><span>Reels</span><span>Stories</span><span>Influencers</span><span>Groups</span>
+    <div class="impact-chain reveal">
+      <div class="impact-row"><span class="who">Designer</span><span class="arrow">→</span><span class="what">يعمل المنتج.</span></div>
+      <div class="impact-row"><span class="who">Content Creator</span><span class="arrow">→</span><span class="what">يخلي الناس تشوف المنتج.</span></div>
+      <div class="impact-row"><span class="who">Marketing</span><span class="arrow">→</span><span class="what">يوصل المنتج لناس أكتر.</span></div>
+      <div class="impact-row"><span class="who">Sales</span><span class="arrow">→</span><span class="what">يحول الاهتمام لـOrder.</span></div>
+      <div class="impact-row"><span class="who">Customer Support</span><span class="arrow">→</span><span class="what">يحافظ على العميل.</span></div>
+      <div class="impact-row"><span class="who">Data Analyst</span><span class="arrow">→</span><span class="what">يقولنا إيه اللي شغال وإيه اللي محتاج يتغير.</span></div>
+      <div class="impact-row"><span class="who">Developer</span><span class="arrow">→</span><span class="what">يحسن النظام.</span></div>
+      <div class="impact-row"><span class="who">Operations</span><span class="arrow">→</span><span class="what">يخلي كل ده يمشي من غير ما الدنيا تضرب 😂</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DATA ===== -->
+<section class="section alt" id="data">
+  <div class="container">
+    <header class="section-head reveal">
+      <span class="eyebrow">06 — Data</span>
+      <h2>طب والـData دخلت في الموضوع ليه؟ 👀</h2>
+      <p class="section-sub">علشان مش كل قرار ينفع ناخده بـ "أنا حاسس" 😂</p>
+    </header>
+
+    <p class="prose center reveal">إحنا عايزين نعرف الناس بتعمل إيه فعلًا.</p>
+
+    <!-- Dashboard demo -->
+    <div class="dash reveal" aria-label="Dashboard توضيحي">
+      <div class="dash-top">
+        <span class="badge-warn">Demo / Illustrative Data</span>
+        <span class="dash-sub">الأرقام دي مثال لتوضيح الفكرة وليست نتائج فعلية.</span>
+      </div>
+
+      <div class="kpis">
+        <div class="kpi"><span class="kpi-label">Revenue</span><span class="kpi-value" data-counter="30000" data-suffix=" EGP">0</span></div>
+        <div class="kpi"><span class="kpi-label">Orders</span><span class="kpi-value" data-counter="20">0</span></div>
+        <div class="kpi"><span class="kpi-label">Conversion Rate</span><span class="kpi-value" data-counter="40" data-suffix="%">0</span></div>
+        <div class="kpi"><span class="kpi-label">Community</span><span class="kpi-value" data-counter="1200">0</span></div>
+      </div>
+
+      <div class="funnel" aria-label="Marketing Funnel">
+        <div class="funnel-row" style="--w:100%"><span class="funnel-label">10,000 Views</span></div>
+        <div class="funnel-row" style="--w:72%"><span class="funnel-label">500 Profile Visits</span></div>
+        <div class="funnel-row" style="--w:52%"><span class="funnel-label">150 Messages</span></div>
+        <div class="funnel-row" style="--w:38%"><span class="funnel-label">50 Leads</span></div>
+        <div class="funnel-row" style="--w:24%"><span class="funnel-label">20 Orders</span></div>
+        <div class="funnel-row" style="--w:16%"><span class="funnel-label">7 Repeat Customers</span></div>
+      </div>
+
+      <p class="note">Illustrative Example — الأرقام دي مثال لتوضيح الفكرة وليست نتائج فعلية.</p>
+    </div>
+
+    <!-- Data → Decisions -->
+    <div class="decisions reveal">
+      <h3 class="mini-title">Data → Decisions</h3>
+      <div class="flow-inline">
+        <span>Data</span><span class="arrow">↓</span>
+        <span>Insights</span><span class="arrow">↓</span>
+        <span>Decisions</span><span class="arrow">↓</span>
+        <span>Experiments</span><span class="arrow">↓</span>
+        <span class="good">Growth</span>
+      </div>
+      <div class="grid two">
+        <div class="quote">
+          لو مثلًا الناس بتحب شنطة معينة... بس اللون الأسود هو اللي عليه أكبر تفاعل...
+          طب ليه ننتج 15 لون محدش طلبهم؟ 😂
+        </div>
+        <div class="quote">
+          لو منتج عليه Views كتير جدًا لكن مفيش Orders...
+          يبقى ممكن المشكلة في السعر، أو الصور، أو الوصف، أو طريقة العرض.
         </div>
       </div>
-      <div class="mkfunnel__row" data-stage="Interest">
-        <div class="mkfunnel__label">Interest</div>
-        <div class="mkfunnel__chips">
-          <span>Product Content</span><span>Reviews</span><span>Customer Photos</span><span>Educational</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== COMMUNITY ===== -->
+<section class="section" id="community">
+  <div class="container">
+    <header class="section-head reveal">
+      <span class="eyebrow">07 — Community</span>
+      <h2>طب ما نعمل Community وخلاص؟</h2>
+      <p class="section-sub">آه بس استنى 😂</p>
+    </header>
+
+    <p class="prose center reveal">
+      مش جروب كل يوم:<br />
+      <span class="mono">BUY NOW 🔥🔥🔥</span><br />
+      <span class="mono">NEW PRODUCT 😍</span><br />
+      <span class="mono">SALE SALE SALE</span><br />
+      وبعد أسبوع الناس كلها عاملة Mute.
+    </p>
+    <p class="prose center reveal">
+      الـCommunity عندنا <strong>جزء من الـBusiness System</strong>، مش قناة إعلانات.
+    </p>
+
+    <div class="grid community-grid">
+      <article class="card reveal"><h3>1. ناخد رأي الناس</h3><p>نفس الشنطة دي نعملها Black ولا Beige؟</p>
+        <div class="poll" role="group" aria-label="Poll تجريبي">
+          <button class="poll-opt" data-pick="Black">Black</button>
+          <button class="poll-opt" data-pick="Beige">Beige</button>
+          <div class="poll-bar"><span class="poll-fill" id="pollFill"></span></div>
+          <small class="poll-hint">اضغط وشوف الفرق 😉</small>
         </div>
-      </div>
-      <div class="mkfunnel__row" data-stage="Consideration">
-        <div class="mkfunnel__label">Consideration</div>
-        <div class="mkfunnel__chips">
-          <span>DM</span><span>Product Details</span><span>Support</span><span>Social Proof</span>
-        </div>
-      </div>
-      <div class="mkfunnel__row" data-stage="Conversion">
-        <div class="mkfunnel__label">Conversion</div>
-        <div class="mkfunnel__chips">
-          <span>Sales</span><span>Offers</span><span>Campaigns</span><span>Follow-up</span>
-        </div>
-      </div>
-      <div class="mkfunnel__row" data-stage="Retention">
-        <div class="mkfunnel__label">Retention</div>
-        <div class="mkfunnel__chips">
-          <span>VIP Community</span><span>Exclusive Offers</span><span>New Products</span><span>Care</span>
-        </div>
-      </div>
-      <div class="mkfunnel__row" data-stage="Advocacy">
-        <div class="mkfunnel__label">Advocacy</div>
-        <div class="mkfunnel__chips">
-          <span>Reviews</span><span>UGC</span><span>Referrals</span><span>Photos</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== VIP ===== -->
-<section class="section vip" id="vip">
-  <div class="container">
-    <span class="eyebrow reveal">Premium Club</span>
-    <h2 class="section__title reveal">Heend Made VIP Community</h2>
-    <p class="section__lead reveal">
-      مساحة مخصصة للعملاء والمهتمين بالبراند، تهدف لبناء علاقة طويلة الأمد بدل علاقة "طلب واحد".
-    </p>
-
-    <div class="vip__grid">
-      <div class="vip__card reveal"><span class="vip__ico">🎁</span><h4>خصومات خاصة</h4><p>يمكن أن تتضمن عروض مخصصة لأعضاء الـ Community.</p></div>
-      <div class="vip__card reveal"><span class="vip__ico">⚡</span><h4>Early Access</h4><p>إمكانية الوصول للمنتجات الجديدة قبل الإطلاق العام.</p></div>
-      <div class="vip__card reveal"><span class="vip__ico">✨</span><h4>عروض حصرية</h4><p>عروض يمكن أن تكون متاحة فقط داخل الـ VIP.</p></div>
-      <div class="vip__card reveal"><span class="vip__ico">🎉</span><h4>Customer Events</h4><p>فعاليات ومناسبات خاصة بالعملاء والمجتمع.</p></div>
-      <div class="vip__card reveal"><span class="vip__ico">📚</span><h4>محتوى خاص</h4><p>محتوى تعليمي أو ترويجي حصري للأعضاء.</p></div>
-      <div class="vip__card reveal"><span class="vip__ico">💬</span><h4>Customer Care</h4><p>دعم أسرع وأقرب لأعضاء الـ VIP Community.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== JOIN ===== -->
-<section class="section join" id="join">
-  <div class="container">
-    <span class="eyebrow reveal">Join Us</span>
-    <h2 class="section__title reveal">هل عندك Skill ممكن تضيفها؟</h2>
-    <p class="section__lead reveal">
-      Heend Made تبحث عن أشخاص لديهم مهارات أو شغف في: Designer, Sales, Marketing,
-      Data Analysis, Customer Support, Moderation, Graphic Design, Video Editing, Development, Operations.
-    </p>
-
-    <form class="join__form reveal" id="joinForm" novalidate>
-      <div class="field">
-        <label>الاسم</label>
-        <input type="text" name="name" required />
-      </div>
-      <div class="field">
-        <label>العمر</label>
-        <input type="number" name="age" min="14" max="80" required />
-      </div>
-      <div class="field">
-        <label>التخصص</label>
-        <select name="role" required>
-          <option value="">اختر التخصص</option>
-          <option>Designer</option>
-          <option>Sales</option>
-          <option>Marketing</option>
-          <option>Data Analysis</option>
-          <option>Customer Support</option>
-          <option>Moderation</option>
-          <option>Graphic Design</option>
-          <option>Video Editing</option>
-          <option>Development</option>
-          <option>Operations</option>
-        </select>
-      </div>
-      <div class="field">
-        <label>المهارات</label>
-        <input type="text" name="skills" placeholder="اكتب مهاراتك الأساسية" required />
-      </div>
-      <div class="field field--full">
-        <label>الخبرة</label>
-        <textarea name="experience" rows="3" placeholder="اكتب نبذة عن خبرتك"></textarea>
-      </div>
-      <div class="field">
-        <label>Portfolio</label>
-        <input type="url" name="portfolio" placeholder="https://" />
-      </div>
-      <div class="field">
-        <label>WhatsApp</label>
-        <input type="tel" name="whatsapp" required />
-      </div>
-      <div class="field field--full">
-        <label>لماذا تريد الانضمام؟</label>
-        <textarea name="why" rows="4" required></textarea>
-      </div>
-      <button type="submit" class="btn btn--primary btn--full">انضم إلى Heend Made</button>
-      <p class="join__note" id="joinNote" role="status"></p>
-    </form>
-  </div>
-</section>
-
-<!-- ===== SECTION 10 — IMPACT CIRCLE ===== -->
-<section class="section impact" id="impact">
-  <div class="container">
-    <span class="eyebrow reveal">التأثير</span>
-    <h2 class="section__title reveal">
-      مش لازم تحقق Order علشان يكون ليك تأثير
-    </h2>
-    <p class="section__lead reveal">
-      كل دور في Heend Made بيأثر في الحلقة اللي بعده. حتى لو مبيبيعش بنفسك،
-      شغلك بيخلي حد تاني يبيع.
-    </p>
-
-    <div class="impact__circle reveal">
-      <svg viewBox="0 0 700 700" class="impact__svg" aria-hidden="true">
-        <defs>
-          <linearGradient id="impactRing" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stop-color="#c9a27a" />
-            <stop offset="100%" stop-color="#5a3c28" />
-          </linearGradient>
-          <radialGradient id="impactCore" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#fff5e6" />
-            <stop offset="100%" stop-color="#e2c9a8" />
-          </radialGradient>
-        </defs>
-        <circle cx="350" cy="350" r="260" fill="none"
-                stroke="url(#impactRing)" stroke-width="1.5"
-                stroke-dasharray="8 8" class="impact__ring"/>
-        <circle cx="350" cy="350" r="120" fill="url(#impactCore)"
-                stroke="#5a3c28" stroke-width="1.5"/>
-        <text x="350" y="340" text-anchor="middle"
-              class="impact__core-text">HEEND MADE</text>
-        <text x="350" y="368" text-anchor="middle"
-              class="impact__core-sub">GROWTH</text>
-      </svg>
-      <div class="impact__nodes" id="impactNodes"></div>
+      </article>
+      <article class="card reveal delay-1"><h3>2. نختبر المنتجات</h3><p>أي Design أحلى؟ Design A / Design B / Design C.</p></article>
+      <article class="card reveal delay-2"><h3>3. نعرف الناس عايزة إيه</h3><p>لو هتشتري Handmade Gift... تحب يكون إيه؟</p></article>
+      <article class="card reveal"><h3>4. Behind The Scenes</h3><p>تصنيع، تجهيز Order، Packaging، أخطاء حصلت أثناء التصنيع.</p>
+        <blockquote class="quote">"الخرزة وقعت بعد ما الشنطة خلصت... طبعًا إحنا بدل ما نعيط هنصلحها 😂"</blockquote>
+      </article>
+      <article class="card reveal delay-1"><h3>5. Early Access</h3><p>أعضاء الـCommunity يشوفوا المنتجات قبل Instagram.</p></article>
+      <article class="card reveal delay-2"><h3>6. Exclusive Offers</h3><p>خصومات وOffers خاصة بالـCommunity.</p></article>
+      <article class="card reveal delay-3"><h3>7. Community-only Products</h3><p>منتجات أو ألوان يتم إطلاقها للمجموعة فقط.</p></article>
     </div>
 
-    <div class="impact__legend reveal">
-      <div><strong>Designer:</strong> يخلق المنتج.</div>
-      <div><strong>Content:</strong> يجعل الناس تراه.</div>
-      <div><strong>Marketing:</strong> يجلب Reach و Traffic.</div>
-      <div><strong>Support:</strong> يبني الثقة.</div>
-      <div><strong>Sales:</strong> يحول الاهتمام إلى Orders.</div>
-      <div><strong>Data:</strong> يكتشف ما يعمل وما يحتاج تحسين.</div>
-      <div><strong>Developer:</strong> يطور الأدوات والأنظمة.</div>
-      <div><strong>Operations:</strong> ينظم العملية بالكامل.</div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== SECTION 11 — BENEFITS ===== -->
-<section class="section benefits" id="benefits">
-  <div class="container">
-    <span class="eyebrow reveal">مكاسب</span>
-    <h2 class="section__title reveal">ماذا سيستفيد الشخص من الانضمام؟</h2>
-    <p class="section__lead reveal">
-      كل دور له مكاسبه الخاصة. دي مش وعود، دي فرص حقيقية بتتكون من الشغل نفسه.
-    </p>
-
-    <div class="benefits__grid" id="benefitsGrid"></div>
-  </div>
-</section>
-
-<!-- ===== SECTION 12 — GROWTH DASHBOARD ===== -->
-<section class="section dashboard" id="dashboard">
-  <div class="container">
-    <span class="eyebrow reveal">Dashboard</span>
-    <h2 class="section__title reveal">Growth Dashboard</h2>
-    <p class="section__lead reveal">
-      لوحة توضيحية بتوضح شكل الأرقام اللي ممكن نتابعها.
-      <strong>أرقام توضيحية وليست بيانات فعلية لـ Heend Made.</strong>
-    </p>
-
-    <div class="dash__cards reveal">
-      <div class="dash__card">
-        <span class="dash__ico">📦</span>
-        <b data-count="1248">0</b>
-        <span class="dash__label">Orders</span>
+    <!-- Community → Data -->
+    <div class="community-data reveal">
+      <h3 class="mini-title">Community → Data</h3>
+      <div class="flow-inline">
+        <span>Community</span><span class="arrow">↓</span>
+        <span>Polls</span><span class="arrow">↓</span>
+        <span>Customer Opinions</span><span class="arrow">↓</span>
+        <span>Behavior</span><span class="arrow">↓</span>
+        <span>Data</span><span class="arrow">↓</span>
+        <span>Analysis</span><span class="arrow">↓</span>
+        <span>Product Decisions</span><span class="arrow">↓</span>
+        <span>New Product</span><span class="arrow">↓</span>
+        <span>Feedback</span><span class="arrow">↓</span>
+        <span class="good">Improvement</span>
       </div>
-      <div class="dash__card">
-        <span class="dash__ico">💰</span>
-        <b data-count="48500">0</b>
-        <span class="dash__label">Sales (EGP)</span>
-      </div>
-      <div class="dash__card">
-        <span class="dash__ico">👥</span>
-        <b data-count="8540">0</b>
-        <span class="dash__label">Potential Customers</span>
-      </div>
-      <div class="dash__card">
-        <span class="dash__ico">🔁</span>
-        <b data-count="31" data-suffix="%">0</b>
-        <span class="dash__label">Repeat Customers</span>
-      </div>
-      <div class="dash__card">
-        <span class="dash__ico">📈</span>
-        <b data-count="4.8" data-decimal="1" data-suffix="%">0</b>
-        <span class="dash__label">Conversion Rate</span>
-      </div>
-      <div class="dash__card">
-        <span class="dash__ico">📣</span>
-        <b data-count="125" data-suffix="K">0</b>
-        <span class="dash__label">Marketing Reach</span>
-      </div>
+      <p class="note">الـCommunity مش بس ناس بتتفرج. دي واحدة من مصادر الـData اللي بنستخدمها علشان نفهم السوق.</p>
     </div>
 
-    <p class="data__note reveal">
-      * الأرقام توضيحية فقط لعرض شكل الـ Dashboard، وليست بيانات حقيقية.
-    </p>
-
-    <div class="charts reveal">
-      <div class="chart-card">
-        <h3>Sales Over Time</h3>
-        <canvas id="chartSales" width="600" height="260"></canvas>
-      </div>
-      <div class="chart-card">
-        <h3>Orders Over Time</h3>
-        <canvas id="chartOrders" width="600" height="260"></canvas>
-      </div>
-      <div class="chart-card">
-        <h3>Product Performance</h3>
-        <canvas id="chartProducts" width="600" height="260"></canvas>
-      </div>
-      <div class="chart-card">
-        <h3>Marketing Channels</h3>
-        <canvas id="chartChannels" width="600" height="260"></canvas>
-      </div>
-      <div class="chart-card">
-        <h3>Customer Retention</h3>
-        <canvas id="chartRetention" width="600" height="260"></canvas>
-      </div>
-      <div class="chart-card">
-        <h3>Conversion Funnel</h3>
-        <canvas id="chartFunnel" width="600" height="260"></canvas>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== SECTION 13 — GROWTH LOOP ===== -->
-<section class="section loop" id="loop">
-  <div class="container">
-    <span class="eyebrow reveal">Growth Loop</span>
-    <h2 class="section__title reveal">الحلقة التي لا تتوقف</h2>
-    <p class="section__lead reveal">
-      المنتج بيولّد محتوى، المحتوى بيجلب جمهور، الجمهور بيتحول لعملاء،
-      والعملاء بيرجعوا بيانات بتطوّر المنتج من جديد.
-    </p>
-
-    <div class="loop__wrap reveal" id="loopWrap">
-      <svg viewBox="0 0 700 700" class="loop__svg" aria-hidden="true">
-        <defs>
-          <linearGradient id="loopGrad" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stop-color="#c9a27a" />
-            <stop offset="100%" stop-color="#5a3c28" />
-          </linearGradient>
-        </defs>
-        <circle cx="350" cy="350" r="250" fill="none"
-                stroke="url(#loopGrad)" stroke-width="1.6"
-                stroke-dasharray="6 10" class="loop__ring"/>
-        <circle cx="350" cy="350" r="10" fill="#5a3c28" class="loop__dot"/>
-        <g class="loop__labels" id="loopLabels"></g>
-      </svg>
-    </div>
-  </div>
-</section>
-
-<!-- ===== SECTION 14 — EARLY STAGE ===== -->
-<section class="section early" id="early">
-  <div class="container">
-    <span class="eyebrow reveal">مرحلة البناء</span>
-    <h2 class="section__title reveal">انضم من مرحلة البناء</h2>
-    <p class="section__lead reveal">
-      الشخص اللي بينضم بدري بيكون جزء من صنع النظام نفسه، مش بس مستخدم ليه.
-    </p>
-
-    <div class="early__grid">
-      <div class="early__card reveal">
-        <h3>هتشارك في</h3>
-        <ul>
-          <li>بناء النظام</li>
-          <li>تطوير العمليات</li>
-          <li>تجربة الأفكار</li>
-          <li>بناء Portfolio</li>
-          <li>خبرة عملية حقيقية</li>
-          <li>التعاون مع تخصصات مختلفة</li>
-          <li>تطوير مهارات القيادة</li>
-          <li>بناء علاقات مهنية</li>
+    <!-- Community Content Manager -->
+    <div class="grid two reveal">
+      <div class="card">
+        <h3>Community Content Manager</h3>
+        <p>فيه شخص مسؤول عن محتوى الـCommunity. مهامه:</p>
+        <ul class="check">
+          <li>عرض نفس الشنطة بألوان مختلفة.</li>
+          <li>سؤال الناس عن أفضل لون.</li>
+          <li>عرض أكثر من Design.</li>
+          <li>عمل Polls.</li>
+          <li>نشر صور المنتجات.</li>
+          <li>نشر فيديوهات تجهيز الطلبات.</li>
+          <li>Behind the Scenes.</li>
+          <li>مشاركة مراحل تطوير المنتج.</li>
+          <li>فتح Discussions.</li>
         </ul>
       </div>
-      <div class="early__card early__card--warn reveal">
-        <h3>من غير وعود</h3>
-        <ul>
-          <li>مش بنوعد بدخل مضمون</li>
-          <li>مش بنوعد بمبيعات مضمونة</li>
-          <li>مش بنوعد بوظيفة مضمونة</li>
-          <li>مش بنوعد بأرباح مضمونة</li>
+      <div class="card">
+        <h3>والـCustomer مش بيختفي بعد الـOrder</h3>
+        <p>نقدر نعرف:</p>
+        <ul class="check">
+          <li>اشترى إيه؟</li>
+          <li>إمتى اشترى؟</li>
+          <li>هل اشترى مرة تانية؟</li>
+          <li>إيه المنتجات اللي ممكن تناسبه؟</li>
+          <li>هل ممكن يكون مهتم بمنتج جديد؟</li>
         </ul>
-        <p class="early__note">
-          اللي بنقدمه فرصة حقيقية للبناء والتعلّم، والنتائج بتعتمد على الشغل.
+        <p class="note">
+          وبالتالي نقدر نعمل Customer Follow-up وWhatsApp Marketing Campaigns،
+          لكن دايمًا بموافقة العميل ووفق القوانين وسياسات المنصات.
         </p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== SECTION 15 — ROADMAP ===== -->
-<section class="section roadmap" id="roadmap">
+<!-- ===== MARKETING + SALES ===== -->
+<section class="section alt" id="marketing">
   <div class="container">
-    <span class="eyebrow reveal">Roadmap</span>
-    <h2 class="section__title reveal">خريطة النمو</h2>
+    <header class="section-head reveal">
+      <span class="eyebrow">08 — Marketing & Sales</span>
+      <h2>طيب نبيع إزاي بقى؟ 💰</h2>
+      <p class="section-sub">البيع ممكن يحصل من أماكن كتير.</p>
+    </header>
 
-    <ol class="roadmap__list" id="roadmapList"></ol>
-  </div>
-</section>
-
-<!-- ===== SECTION 16 — FAQ ===== -->
-<section class="section faq" id="faq">
-  <div class="container">
-    <span class="eyebrow reveal">FAQ</span>
-    <h2 class="section__title reveal">أسئلة متكررة</h2>
-
-    <div class="faq__list" id="faqList"></div>
-  </div>
-</section>
-
-<footer class="footer">
-  <div class="container footer__inner">
-    <div>
-      <div class="footer__brand">Heend Made</div>
-      <p>Interactive Business Presentation — Built with HTML, CSS &amp; Vanilla JS.</p>
+    <div class="chips reveal">
+      <span class="chip">Instagram</span>
+      <span class="chip">Facebook</span>
+      <span class="chip">WhatsApp</span>
+      <span class="chip">Communities</span>
+      <span class="chip">Social Media</span>
+      <span class="chip">Sales Team</span>
+      <span class="chip">Personal Networks</span>
+      <span class="chip">Campaigns</span>
     </div>
-    <p class="footer__copy">© <span id="year"></span> Heend Made. جميع الحقوق محفوظة.</p>
+
+    <!-- Funnel -->
+    <div class="funnel-visual reveal">
+      <div class="fv-step s1"><strong>Awareness</strong><span>Instagram / Reels / Ads / Influencers</span></div>
+      <div class="fv-step s2"><strong>Interest</strong><span>Content / Products / Reviews</span></div>
+      <div class="fv-step s3"><strong>Consideration</strong><span>DMs / Questions / Support</span></div>
+      <div class="fv-step s4"><strong>Conversion</strong><span>Order</span></div>
+      <div class="fv-step s5"><strong>Retention</strong><span>Follow-up / Community / Offers</span></div>
+      <div class="fv-step s6"><strong>Advocacy</strong><span>Reviews / UGC / Referrals</span></div>
+    </div>
+
+    <!-- Sales role -->
+    <div class="grid two reveal">
+      <div class="card">
+        <h3>دور الـSales Person</h3>
+        <p>لو بتعرف تتعامل مع الناس، ومش بتتكسف تكلم Customer، ممكن تكون مناسب جدًا.</p>
+        <ul class="check">
+          <li>متابعة Instagram.</li>
+          <li>نشر Posts / Reels / Stories.</li>
+          <li>الرد على العملاء.</li>
+          <li>مساعدة العميل يختار المنتج المناسب.</li>
+          <li>متابعة الطلب.</li>
+          <li>متابعة Customer بعد البيع.</li>
+        </ul>
+        <p class="note">التواصل يكون من WhatsApp الخاص بالصفحة، وليس WhatsApp الشخصي.</p>
+      </div>
+
+      <div class="card">
+        <h3>نظام العمولة</h3>
+        <p>لما Customer يطلب Product:</p>
+        <ol class="steps">
+          <li>بنتواصل مع الـDesigner.</li>
+          <li>نعرف تكلفة تنفيذ المنتج.</li>
+          <li>نضيف تكلفة الشحن.</li>
+          <li>نضيف نسبة Heend Made.</li>
+          <li>يظهر السعر النهائي للعميل.</li>
+        </ol>
+        <p class="note">الاتفاق المقترح يستمر حتى نهاية السنة، وفي بداية السنة التالية — لو النظام نجح — نناقش اتفاق جديد بشروط أنسب للطرفين.</p>
+      </div>
+    </div>
+
+    <!-- Commission visual -->
+    <div class="commission reveal">
+      <h3 class="mini-title">توزيع الـ 30% (مقترح)</h3>
+      <div class="donut">
+        <div class="donut-chart" style="--p:20">
+          <div class="donut-center">30%</div>
+        </div>
+        <ul class="donut-legend">
+          <li><span class="sw sw1"></span> 20% Sales Commission — للشخص اللي قام بالبيع.</li>
+          <li><span class="sw sw2"></span> 10% Page Development — للتطوير (Paid Ads, Marketing, Tools, Content, Website, Growth, Development, Operations).</li>
+        </ul>
+      </div>
+      <p class="note">الـ10% مش "فلوس جيب الإدارة". هي مخصصة لتطوير الصفحة والمنظومة.</p>
+      <p class="quote">كل ما الـPage تكبر → الناس تعرفها أكتر → فرص البيع تزيد → فرص العمولة تزيد.</p>
+    </div>
+
+    <!-- Calculator -->
+    <div class="calc reveal">
+      <h3 class="mini-title">مثال حسابي تفاعلي</h3>
+      <div class="calc-row">
+        <label for="salesInput">Sales per day (EGP)</label>
+        <input id="salesInput" type="number" min="0" step="50" value="1000" inputmode="numeric" />
+      </div>
+      <div class="calc-grid">
+        <div class="calc-out"><span>Sales (يوم)</span><strong id="outDay">1,000 EGP</strong></div>
+        <div class="calc-out"><span>Sales Commission (20%)</span><strong id="outDayComm">200 EGP</strong></div>
+        <div class="calc-out"><span>Page Development (10%)</span><strong id="outDayPage">100 EGP</strong></div>
+        <div class="calc-out"><span>Sales (30 يوم)</span><strong id="outMonth">30,000 EGP</strong></div>
+        <div class="calc-out"><span>Sales Commission (30 يوم)</span><strong id="outMonthComm">6,000 EGP</strong></div>
+        <div class="calc-out"><span>Page Development (30 يوم)</span><strong id="outMonthPage">3,000 EGP</strong></div>
+      </div>
+      <p class="note">ده مثال حسابي فقط، مش وعد بدخل ثابت أو مضمون. الدخل الفعلي يعتمد على المبيعات الفعلية والأداء.</p>
+    </div>
+
+    <!-- Growth loop -->
+    <div class="loop reveal">
+      <h3 class="mini-title">Growth Loop</h3>
+      <div class="loop-ring" aria-hidden="true">
+        <div class="loop-center">Growth 🔄</div>
+        <span class="loop-node n1">Product</span>
+        <span class="loop-node n2">Content</span>
+        <span class="loop-node n3">Marketing</span>
+        <span class="loop-node n4">Customers</span>
+        <span class="loop-node n5">Sales</span>
+        <span class="loop-node n6">Data</span>
+        <span class="loop-node n7">Insights</span>
+        <span class="loop-node n8">Better Products</span>
+      </div>
+      <p class="center-note">العجلة دي كل ما تلف صح... المشروع يكبر.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NOT-JUST-SALES ===== -->
+<section class="section" id="impact-2">
+  <div class="container narrow">
+    <header class="section-head reveal">
+      <span class="eyebrow">09 — نقطة مهمة</span>
+      <h2>يعني لو أنا مش ببيع... ماليش لازمة؟</h2>
+      <p class="section-sub">مين قال؟ 😂</p>
+    </header>
+
+    <ul class="impact-list reveal">
+      <li><strong>Data Analyst:</strong> إنت ممكن ما تعملش ولا Order، بس لو خليتنا نعرف المنتج اللي هنبيعه بكرة... إنت ساهمت في البيع.</li>
+      <li><strong>Content Creator:</strong> إنت جبت Attention.</li>
+      <li><strong>Marketing:</strong> إنت جبت Traffic.</li>
+      <li><strong>Moderator:</strong> إنت بنيت Trust.</li>
+      <li><strong>Designer:</strong> إنت عملت المنتج.</li>
+      <li><strong>Developer:</strong> إنت خليت النظام أسهل.</li>
+      <li><strong>Operations:</strong> إنت خليت الناس دي كلها تعرف تشتغل مع بعض.</li>
+    </ul>
+
+    <p class="center-note reveal">كل واحد بيزق العجلة حتة.</p>
+  </div>
+</section>
+
+<!-- ===== ROADMAP ===== -->
+<section class="section alt" id="roadmap">
+  <div class="container">
+    <header class="section-head reveal">
+      <span class="eyebrow">10 — Roadmap</span>
+      <h2>إحنا رايحين لفين؟</h2>
+      <p class="section-sub">مش بنجري على آخر الخريطة من أول يوم 😂 — كل مرحلة ليها وقتها.</p>
+    </header>
+
+    <ol class="roadmap reveal">
+      <li>
+        <span class="phase">Phase 01</span>
+        <h3>Building the Core Team</h3>
+        <p>نجمع الناس الصح في الأدوار الصح.</p>
+      </li>
+      <li>
+        <span class="phase">Phase 02</span>
+        <h3>Product & Content Setup</h3>
+        <p>نجهز المنتجات والـContent بشكل منظم.</p>
+      </li>
+      <li>
+        <span class="phase">Phase 03</span>
+        <h3>Launch</h3>
+        <p>نطلع للسوق بشكل واضح.</p>
+      </li>
+      <li>
+        <span class="phase">Phase 04</span>
+        <h3>Community Growth</h3>
+        <p>نكبر الـCommunity ونبني Trust.</p>
+      </li>
+      <li>
+        <span class="phase">Phase 05</span>
+        <h3>Data & Optimization</h3>
+        <p>نقرأ الأرقام ونحسن كل حاجة.</p>
+      </li>
+      <li>
+        <span class="phase">Phase 06</span>
+        <h3>Scaling</h3>
+        <p>نوسّع المنظومة لفرق ومنتجات أكتر.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== WHY EARLY ===== -->
+<section class="section" id="early">
+  <div class="container narrow">
+    <header class="section-head reveal">
+      <span class="eyebrow">11 — Why Early</span>
+      <h2>طب ليه تنضم من بدري؟</h2>
+    </header>
+    <p class="prose center reveal">
+      لأن الشخص اللي يدخل من البداية مش مجرد موظف بينفذ Task.
+      هو جزء من بناء النظام نفسه.
+    </p>
+    <ul class="check center-list reveal">
+      <li>تطوير الأفكار</li>
+      <li>تجربة المنتجات</li>
+      <li>بناء الـCommunity</li>
+      <li>تطوير طريقة البيع</li>
+      <li>بناء الـContent</li>
+      <li>تحليل الـData</li>
+      <li>تحسين الـMarketing</li>
+      <li>اقتراح Systems</li>
+    </ul>
+    <p class="callout center reveal">
+      إنت مش داخل على حاجة جاهزة 100%...<br />
+      إنت داخل تساعدنا نبنيها.
+    </p>
+  </div>
+</section>
+
+<!-- ===== JOIN ===== -->
+<section class="section alt join" id="join">
+  <div class="container narrow">
+    <header class="section-head reveal">
+      <span class="eyebrow">12 — Join</span>
+      <h2>طيب لو الكلام ده عجبك؟</h2>
+      <p class="section-sub">مش محتاج تعمل CV من 14 صفحة 😂 — ابعتلنا على WhatsApp وقولنا إنت بتعرف تعمل إيه.</p>
+    </header>
+
+    <div class="join-actions reveal">
+      <a class="btn btn-primary" target="_blank" rel="noopener"
+         href="https://wa.me/201012932133?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%B4%D9%88%D9%81%D8%AA%20Heend%20Made%20%D9%88%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D8%B9%D8%B1%D9%81%20%D8%A3%D9%83%D8%AA%D8%B1%20%D8%B9%D9%86%20%D9%81%D8%B1%D8%B5%20%D8%A7%D9%84%D8%A7%D9%86%D8%B6%D9%85%D8%A7%D9%85.">
+        عايز أنضم للفريق 👀
+      </a>
+      <a class="btn btn-outline" target="_blank" rel="noopener"
+         href="https://wa.me/201012932133?text=%D8%A3%D9%86%D8%A7%20Handmade%20Designer%20%D9%88%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D8%B9%D8%B1%D9%81%20%D8%A5%D8%B2%D8%A7%D9%8A%20%D8%A3%D9%82%D8%AF%D8%B1%20%D8%A3%D8%A8%D9%8A%D8%B9%20%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%D9%8A%20%D9%85%D8%B9%20Heend%20Made.">
+        أنا Handmade Designer 🧵
+      </a>
+      <a class="btn btn-ghost" target="_blank" rel="noopener"
+         href="https://wa.me/201012932133?text=%D8%B9%D9%86%D8%AF%D9%8A%20%D8%B3%D8%A4%D8%A7%D9%84%20%D8%A8%D8%AE%D8%B5%D9%88%D8%B5%20Heend%20Made.">
+        عندي سؤال 💬
+      </a>
+    </div>
+
+    <p class="join-phone reveal">أو كلّمنا على: <a href="tel:+201012932133">01012932133</a></p>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="section" id="faq">
+  <div class="container narrow">
+    <header class="section-head reveal">
+      <span class="eyebrow">13 — FAQ</span>
+      <h2>أسئلة بتتكرر كتير</h2>
+    </header>
+
+    <div class="accordion reveal" id="accordion">
+      <details>
+        <summary>هل لازم يكون عندي خبرة؟</summary>
+        <div class="ans">مش بالضرورة. المهم تكون بتعرف تعمل الحاجة اللي هتقدمها وعندك استعداد تتعلم.</div>
+      </details>
+      <details>
+        <summary>هل لازم أكون Designer؟</summary>
+        <div class="ans">لا. عندنا Marketing وSales وContent وData وDesign وTech وغيره.</div>
+      </details>
+      <details>
+        <summary>هل في مرتب ثابت؟</summary>
+        <div class="ans">حسب الاتفاق والدور. بنوضح كل حاجة قبل البدء، ومفيش أي ضمان مالي غير موجود بشكل واضح.</div>
+      </details>
+      <details>
+        <summary>العمولة بتتحسب إزاي؟</summary>
+        <div class="ans">30% من قيمة البيع (مقترح) — منها 20% Sales Commission للشخص اللي قام بالبيع، و10% Page Development للتطوير.</div>
+      </details>
+      <details>
+        <summary>هل الـ10% بتروح لجيب الإدارة؟</summary>
+        <div class="ans">لا، حسب النظام المقترح هي مخصصة لتطوير الصفحة والمنظومة: Paid Ads، Marketing، Tools، Content، Website، Growth، Operations.</div>
+      </details>
+      <details>
+        <summary>هل لازم أستخدم رقمي الشخصي؟</summary>
+        <div class="ans">لا، التواصل مع العملاء يكون من WhatsApp الخاص بالصفحة.</div>
+      </details>
+      <details>
+        <summary>هل Community مجرد إعلانات؟</summary>
+        <div class="ans">لا. الفكرة الأساسية إنها مساحة مشاركة واختبار أفكار ومنتجات وBehind The Scenes.</div>
+      </details>
+      <details>
+        <summary>إزاي أنضم؟</summary>
+        <div class="ans">ابعتلنا على WhatsApp من أي زر "عايز أنضم" في الموقع.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FINAL CTA ===== -->
+<section class="section cta-final">
+  <div class="container narrow reveal">
+    <h2>خلينا نبدأ؟</h2>
+    <p>مش لازم تكون Mark Zuckerberg علشان تعرف تعمل Story 😂</p>
+    <a class="btn btn-primary btn-lg" target="_blank" rel="noopener"
+       href="https://wa.me/201012932133?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%B4%D9%88%D9%81%D8%AA%20Heend%20Made%20%D9%88%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D8%B9%D8%B1%D9%81%20%D8%A3%D9%83%D8%AA%D8%B1.">
+      يلا نتكلم على WhatsApp 💬
+    </a>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="#home" class="logo">
+        <span class="logo-mark" aria-hidden="true">H</span>
+        <span class="logo-text">Heend <em>Made</em></span>
+      </a>
+      <p class="footer-tag">Handmade, but built like a business.</p>
+      <p class="footer-tag-alt">إحنا بنعمل Handmade... بس مش بنشتغل عشوائي 😂</p>
+    </div>
+    <nav class="footer-links" aria-label="روابط الفوتر">
+      <a href="#home">Home</a>
+      <a href="#teams">Teams</a>
+      <a href="#community">Community</a>
+      <a href="#marketing">Marketing</a>
+      <a href="#data">Data</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://wa.me/201012932133?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%B4%D9%88%D9%81%D8%AA%20Heend%20Made." target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <small>© 2026 Heend Made. All Rights Reserved.</small>
+    <small>Made with 🧠 + ☕</small>
   </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 </body>
 </html>
