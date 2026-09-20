@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Heend Made — أكثر من مجرد براند Handmade</title>
+<meta name="description" content="Heend Made منظومة متكاملة تجمع المصممين، التسويق، المبيعات، خدمة العملاء، تحليل البيانات والإدارة لبناء Brand قابل للنمو." />
+<meta name="keywords" content="Heend Made, Handmade, براند يدوي, تسويق, مبيعات, تحليل بيانات" />
+<meta name="author" content="Heend Made" />
+<meta property="og:title" content="Heend Made — أكثر من مجرد براند Handmade" />
+<meta property="og:description" content="منظومة متكاملة لبناء Brand Handmade قابل للنمو." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav__container">
+    <a href="#hero" class="nav__logo">
+      <span class="nav__logo-mark">H</span>
+      <span class="nav__logo-text">Heend Made</span>
+    </a>
+    <nav class="nav__menu" id="navMenu">
+      <a href="#about">الفكرة</a>
+      <a href="#problem">المشكلة</a>
+      <a href="#flow">كيف نعمل</a>
+      <a href="#teams">الفرق</a>
+      <a href="#data">البيانات</a>
+      <a href="#marketing">التسويق</a>
+      <a href="#vip">VIP</a>
+      <a href="#join" class="nav__cta">انضم إلينا</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="القائمة">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="hero">
+  <div class="hero__bg" aria-hidden="true">
+    <svg class="hero__grid" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+          <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(90,60,40,.08)" stroke-width="1"/>
+        </pattern>
+      </defs>
+      <rect width="1200" height="800" fill="url(#grid)" />
+    </svg>
+    <div class="hero__blob hero__blob--1"></div>
+    <div class="hero__blob hero__blob--2"></div>
+  </div>
+
+  <div class="hero__inner">
+    <div class="hero__text">
+      <span class="eyebrow">Interactive Business Presentation</span>
+      <h1 class="hero__title">
+        <span class="hero__title-brand">Heend Made</span>
+        <span class="hero__title-sub">أكثر من مجرد براند Handmade</span>
+      </h1>
+      <p class="hero__desc">
+        منظومة متكاملة تجمع المصممين، التسويق، المبيعات، خدمة العملاء،
+        تحليل البيانات والإدارة لبناء Brand قابل للنمو.
+      </p>
+      <div class="hero__actions">
+        <a href="#about" class="btn btn--primary">اكتشف الفكرة</a>
+        <a href="#join" class="btn btn--ghost">انضم إلى الفريق</a>
+      </div>
+
+      <ul class="hero__stats">
+        <li><strong data-count="8">0</strong><span>Teams متخصصة</span></li>
+        <li><strong data-count="17">0</strong><span>مرحلة نمو</span></li>
+        <li><strong data-count="100">0</strong><span>% تعاون</span></li>
+      </ul>
+    </div>
+
+    <div class="hero__diagram">
+      <svg viewBox="0 0 500 500" class="hero__flow" aria-hidden="true">
+        <defs>
+          <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#c9a27a" />
+            <stop offset="1" stop-color="#5a3c28" />
+          </linearGradient>
+        </defs>
+        <!-- connecting lines -->
+        <g stroke="url(#lineGrad)" stroke-width="1.5" fill="none" stroke-dasharray="6 6">
+          <path d="M250 80 C 380 80, 420 180, 420 250" />
+          <path d="M420 250 C 420 350, 350 420, 250 420" />
+          <path d="M250 420 C 150 420, 80 350, 80 250" />
+          <path d="M80 250 C 80 150, 120 80, 250 80" />
+        </g>
+        <!-- nodes -->
+        <g class="hero__nodes">
+          <g transform="translate(250 80)"><circle r="34" /><text>Designer</text></g>
+          <g transform="translate(420 250)"><circle r="34" /><text>Content</text></g>
+          <g transform="translate(250 420)"><circle r="34" /><text>Marketing</text></g>
+          <g transform="translate(80 250)"><circle r="34" /><text>Sales</text></g>
+          <g transform="translate(335 165)"><circle r="26" /><text class="small">Customers</text></g>
+          <g transform="translate(335 335)"><circle r="26" /><text class="small">Data</text></g>
+          <g transform="translate(165 335)"><circle r="26" /><text class="small">Growth</text></g>
+          <g transform="translate(165 165)"><circle r="26" /><text class="small">Support</text></g>
+        </g>
+        <circle class="hero__pulse" cx="250" cy="250" r="8" fill="#5a3c28" />
+      </svg>
+    </div>
+  </div>
+
+  <div class="hero__scroll">
+    <span>اسحب للأسفل</span>
+    <svg width="16" height="24" viewBox="0 0 16 24"><path d="M8 2 v16 m-5 -5 l5 5 l5 -5" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+  </div>
+</section>
+
+<!-- ===== ABOUT / ECOSYSTEM ===== -->
+<section class="section about" id="about">
+  <div class="container">
+    <span class="eyebrow reveal">ما هي Heend Made؟</span>
+    <h2 class="section__title reveal">
+      منظومة <em>متكاملة</em> حول منتجات الـ Handmade
+    </h2>
+    <p class="section__lead reveal">
+      بدل ما يكون الـ Designer مسؤولًا عن التصميم + التصوير + التسويق + الرد على العملاء + البيع + متابعة الطلب + الشحن + تحليل النتائج،
+      نقسم المسؤوليات على <strong>Teams متخصصة</strong>.
+    </p>
+
+    <div class="ecosystem reveal">
+      <svg viewBox="0 0 800 800" class="ecosystem__svg" aria-hidden="true">
+        <defs>
+          <radialGradient id="coreGrad" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#f4e6d5" />
+            <stop offset="100%" stop-color="#e2c9a8" />
+          </radialGradient>
+        </defs>
+        <g class="eco-lines" stroke="#c9a27a" stroke-width="1.2" fill="none" stroke-dasharray="4 6"></g>
+        <circle cx="400" cy="400" r="90" fill="url(#coreGrad)" stroke="#5a3c28" stroke-width="1.5"/>
+        <text x="400" y="395" text-anchor="middle" class="eco-core-title">HEEND</text>
+        <text x="400" y="420" text-anchor="middle" class="eco-core-title">MADE</text>
+      </svg>
+      <div class="ecosystem__nodes" id="ecosystemNodes"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROBLEM ===== -->
+<section class="section problem" id="problem">
+  <div class="container">
+    <span class="eyebrow reveal">المشكلة</span>
+    <h2 class="section__title reveal">لماذا نحتاج هذا النظام؟</h2>
+
+    <div class="problem__grid">
+      <div class="problem__card problem__card--chaos reveal">
+        <h3>قبل Heend Made</h3>
+        <p class="problem__desc">مصمم واحد يحاول عمل كل شيء.</p>
+        <div class="chaos" id="chaos">
+          <div class="chaos__center">
+            <span>Designer</span>
+          </div>
+          <div class="chaos__bubble" style="--x:-180px;--y:-140px">Design</div>
+          <div class="chaos__bubble" style="--x:120px;--y:-160px">Marketing</div>
+          <div class="chaos__bubble" style="--x:-200px;--y:0px">Sales</div>
+          <div class="chaos__bubble" style="--x:180px;--y:20px">Messages</div>
+          <div class="chaos__bubble" style="--x:-140px;--y:140px">Shipping</div>
+          <div class="chaos__bubble" style="--x:100px;--y:170px">Content</div>
+          <div class="chaos__bubble" style="--x:0px;--y:-190px">Customers</div>
+          <div class="chaos__bubble" style="--x:210px;--y:-60px">Data</div>
+        </div>
+      </div>
+
+      <div class="problem__arrow reveal">
+        <svg viewBox="0 0 60 120"><path d="M30 5 v90 m-15 -15 l15 15 l15 -15" stroke="#5a3c28" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+      </div>
+
+      <div class="problem__card problem__card--order reveal">
+        <h3>مع Heend Made</h3>
+        <p class="problem__desc">كل شخص يركز على تخصصه.</p>
+        <div class="order">
+          <div class="order__row">
+            <span class="order__dot" style="--c:#5a3c28"></span> Designer
+            <span class="order__tag">المنتج</span>
+          </div>
+          <div class="order__row">
+            <span class="order__dot" style="--c:#c9a27a"></span> Content
+            <span class="order__tag">المحتوى</span>
+          </div>
+          <div class="order__row">
+            <span class="order__dot" style="--c:#a87550"></span> Marketing
+            <span class="order__tag">الوصول</span>
+          </div>
+          <div class="order__row">
+            <span class="order__dot" style="--c:#8c5c3a"></span> Sales
+            <span class="order__tag">الأوردرات</span>
+          </div>
+          <div class="order__row">
+            <span class="order__dot" style="--c:#d9bf9a"></span> Support
+            <span class="order__tag">العلاقة</span>
+          </div>
+          <div class="order__row">
+            <span class="order__dot" style="--c:#5a3c28"></span> Data
+            <span class="order__tag">القرارات</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FLOW ===== -->
+<section class="section flow" id="flow">
+  <div class="container">
+    <span class="eyebrow reveal">كيف تعمل المنظومة؟</span>
+    <h2 class="section__title reveal">رحلة المنتج من الفكرة إلى النمو</h2>
+
+    <div class="flowline" id="flowline">
+      <div class="flowline__item reveal"><span class="flowline__ico">🧵</span><span>Designer</span></div>
+      <div class="flowline__arrow reveal"></div>
+      <div class="flowline__item reveal"><span class="flowline__ico">📦</span><span>Product</span></div>
+      <div class="flowline__arrow reveal"></div>
+      <div class="flowline__item reveal"><span class="flowline__ico">🎨</span><span>Content</span></div>
+      <div class="flowline__arrow reveal"></div>
+      <div class="flowline__item reveal"><span class="flowline__ico">📣</span><span>Marketing</span></div>
+      <div class="flowline__arrow reveal"></div>
+      <div class="flowline__item reveal"><span class="flowline__ico">👥</span><span>Customers</span></div>
+      <div class="flowline__arrow reveal"></div>
+      <div class="flowline__item reveal"><span class="flowline__ico">💬</span><span>Support</span></div>
+      <div class="flowline__arrow reveal"></div>
+      <div class="flowline__item reveal"><span class="flowline__ico">💰</span><span>Sales</span></div>
+      <div class="flowline__arrow reveal"></div>
+      <div class="flowline__item reveal"><span class="flowline__ico">🚚</span><span>Shipping</span></div>
+      <div class="flowline__arrow reveal"></div>
+      <div class="flowline__item reveal"><span class="flowline__ico">❤️</span><span>Experience</span></div>
+      <div class="flowline__arrow reveal"></div>
+      <div class="flowline__item reveal"><span class="flowline__ico">📊</span><span>Data</span></div>
+      <div class="flowline__arrow reveal"></div>
+      <div class="flowline__item reveal"><span class="flowline__ico">🧠</span><span>Insights</span></div>
+      <div class="flowline__arrow reveal"></div>
+      <div class="flowline__item reveal flowline__item--final"><span class="flowline__ico">🚀</span><span>Growth</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TEAMS ===== -->
+<section class="section teams" id="teams">
+  <div class="container">
+    <span class="eyebrow reveal">الفرق</span>
+    <h2 class="section__title reveal">فريق واحد... تخصصات متعددة</h2>
+
+    <div class="teams__grid" id="teamsGrid"></div>
+  </div>
+</section>
+
+<!-- ===== DATA (big) ===== -->
+<section class="section data" id="data">
+  <div class="container">
+    <span class="eyebrow reveal">Data Analysis</span>
+    <h2 class="section__title reveal">كيف يمكن للـ Data أن تغير طريقة اتخاذ القرار؟</h2>
+    <p class="section__lead reveal">
+      البيانات لا تخبرنا فقط بما حدث... بل تساعدنا على معرفة ماذا نفعل بعد ذلك.
+    </p>
+
+    <div class="funnel reveal" id="funnel">
+      <div class="funnel__step" style="--w:100%"><span>Views</span><b>10,000</b></div>
+      <div class="funnel__step" style="--w:80%"><span>Profile Visits</span><b>500</b></div>
+      <div class="funnel__step" style="--w:62%"><span>Messages</span><b>150</b></div>
+      <div class="funnel__step" style="--w:46%"><span>Leads</span><b>50</b></div>
+      <div class="funnel__step" style="--w:30%"><span>Orders</span><b>20</b></div>
+      <div class="funnel__step funnel__step--last" style="--w:18%"><span>Repeat</span><b>7</b></div>
+    </div>
+
+    <p class="data__note reveal">
+      أرقام توضيحية وليست بيانات فعلية لـ Heend Made.
+    </p>
+
+    <div class="data__loop reveal">
+      <div class="data__loop-item">Data</div>
+      <div class="data__loop-item">Insights</div>
+      <div class="data__loop-item">Decisions</div>
+      <div class="data__loop-item">Experiments</div>
+      <div class="data__loop-item data__loop-item--accent">Growth</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MARKETING ===== -->
+<section class="section marketing" id="marketing">
+  <div class="container">
+    <span class="eyebrow reveal">Marketing</span>
+    <h2 class="section__title reveal">خطة التسويق</h2>
+
+    <div class="mkfunnel reveal" id="mkfunnel">
+      <div class="mkfunnel__row" data-stage="Awareness">
+        <div class="mkfunnel__label">Awareness</div>
+        <div class="mkfunnel__chips">
+          <span>Instagram</span><span>Facebook</span><span>Reels</span><span>Stories</span><span>Influencers</span><span>Groups</span>
+        </div>
+      </div>
+      <div class="mkfunnel__row" data-stage="Interest">
+        <div class="mkfunnel__label">Interest</div>
+        <div class="mkfunnel__chips">
+          <span>Product Content</span><span>Reviews</span><span>Customer Photos</span><span>Educational</span>
+        </div>
+      </div>
+      <div class="mkfunnel__row" data-stage="Consideration">
+        <div class="mkfunnel__label">Consideration</div>
+        <div class="mkfunnel__chips">
+          <span>DM</span><span>Product Details</span><span>Support</span><span>Social Proof</span>
+        </div>
+      </div>
+      <div class="mkfunnel__row" data-stage="Conversion">
+        <div class="mkfunnel__label">Conversion</div>
+        <div class="mkfunnel__chips">
+          <span>Sales</span><span>Offers</span><span>Campaigns</span><span>Follow-up</span>
+        </div>
+      </div>
+      <div class="mkfunnel__row" data-stage="Retention">
+        <div class="mkfunnel__label">Retention</div>
+        <div class="mkfunnel__chips">
+          <span>VIP Community</span><span>Exclusive Offers</span><span>New Products</span><span>Care</span>
+        </div>
+      </div>
+      <div class="mkfunnel__row" data-stage="Advocacy">
+        <div class="mkfunnel__label">Advocacy</div>
+        <div class="mkfunnel__chips">
+          <span>Reviews</span><span>UGC</span><span>Referrals</span><span>Photos</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VIP ===== -->
+<section class="section vip" id="vip">
+  <div class="container">
+    <span class="eyebrow reveal">Premium Club</span>
+    <h2 class="section__title reveal">Heend Made VIP Community</h2>
+    <p class="section__lead reveal">
+      مساحة مخصصة للعملاء والمهتمين بالبراند، تهدف لبناء علاقة طويلة الأمد بدل علاقة "طلب واحد".
+    </p>
+
+    <div class="vip__grid">
+      <div class="vip__card reveal"><span class="vip__ico">🎁</span><h4>خصومات خاصة</h4><p>يمكن أن تتضمن عروض مخصصة لأعضاء الـ Community.</p></div>
+      <div class="vip__card reveal"><span class="vip__ico">⚡</span><h4>Early Access</h4><p>إمكانية الوصول للمنتجات الجديدة قبل الإطلاق العام.</p></div>
+      <div class="vip__card reveal"><span class="vip__ico">✨</span><h4>عروض حصرية</h4><p>عروض يمكن أن تكون متاحة فقط داخل الـ VIP.</p></div>
+      <div class="vip__card reveal"><span class="vip__ico">🎉</span><h4>Customer Events</h4><p>فعاليات ومناسبات خاصة بالعملاء والمجتمع.</p></div>
+      <div class="vip__card reveal"><span class="vip__ico">📚</span><h4>محتوى خاص</h4><p>محتوى تعليمي أو ترويجي حصري للأعضاء.</p></div>
+      <div class="vip__card reveal"><span class="vip__ico">💬</span><h4>Customer Care</h4><p>دعم أسرع وأقرب لأعضاء الـ VIP Community.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== JOIN ===== -->
+<section class="section join" id="join">
+  <div class="container">
+    <span class="eyebrow reveal">Join Us</span>
+    <h2 class="section__title reveal">هل عندك Skill ممكن تضيفها؟</h2>
+    <p class="section__lead reveal">
+      Heend Made تبحث عن أشخاص لديهم مهارات أو شغف في: Designer, Sales, Marketing,
+      Data Analysis, Customer Support, Moderation, Graphic Design, Video Editing, Development, Operations.
+    </p>
+
+    <form class="join__form reveal" id="joinForm" novalidate>
+      <div class="field">
+        <label>الاسم</label>
+        <input type="text" name="name" required />
+      </div>
+      <div class="field">
+        <label>العمر</label>
+        <input type="number" name="age" min="14" max="80" required />
+      </div>
+      <div class="field">
+        <label>التخصص</label>
+        <select name="role" required>
+          <option value="">اختر التخصص</option>
+          <option>Designer</option>
+          <option>Sales</option>
+          <option>Marketing</option>
+          <option>Data Analysis</option>
+          <option>Customer Support</option>
+          <option>Moderation</option>
+          <option>Graphic Design</option>
+          <option>Video Editing</option>
+          <option>Development</option>
+          <option>Operations</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>المهارات</label>
+        <input type="text" name="skills" placeholder="اكتب مهاراتك الأساسية" required />
+      </div>
+      <div class="field field--full">
+        <label>الخبرة</label>
+        <textarea name="experience" rows="3" placeholder="اكتب نبذة عن خبرتك"></textarea>
+      </div>
+      <div class="field">
+        <label>Portfolio</label>
+        <input type="url" name="portfolio" placeholder="https://" />
+      </div>
+      <div class="field">
+        <label>WhatsApp</label>
+        <input type="tel" name="whatsapp" required />
+      </div>
+      <div class="field field--full">
+        <label>لماذا تريد الانضمام؟</label>
+        <textarea name="why" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn--primary btn--full">انضم إلى Heend Made</button>
+      <p class="join__note" id="joinNote" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ===== SECTION 10 — IMPACT CIRCLE ===== -->
+<section class="section impact" id="impact">
+  <div class="container">
+    <span class="eyebrow reveal">التأثير</span>
+    <h2 class="section__title reveal">
+      مش لازم تحقق Order علشان يكون ليك تأثير
+    </h2>
+    <p class="section__lead reveal">
+      كل دور في Heend Made بيأثر في الحلقة اللي بعده. حتى لو مبيبيعش بنفسك،
+      شغلك بيخلي حد تاني يبيع.
+    </p>
+
+    <div class="impact__circle reveal">
+      <svg viewBox="0 0 700 700" class="impact__svg" aria-hidden="true">
+        <defs>
+          <linearGradient id="impactRing" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#c9a27a" />
+            <stop offset="100%" stop-color="#5a3c28" />
+          </linearGradient>
+          <radialGradient id="impactCore" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#fff5e6" />
+            <stop offset="100%" stop-color="#e2c9a8" />
+          </radialGradient>
+        </defs>
+        <circle cx="350" cy="350" r="260" fill="none"
+                stroke="url(#impactRing)" stroke-width="1.5"
+                stroke-dasharray="8 8" class="impact__ring"/>
+        <circle cx="350" cy="350" r="120" fill="url(#impactCore)"
+                stroke="#5a3c28" stroke-width="1.5"/>
+        <text x="350" y="340" text-anchor="middle"
+              class="impact__core-text">HEEND MADE</text>
+        <text x="350" y="368" text-anchor="middle"
+              class="impact__core-sub">GROWTH</text>
+      </svg>
+      <div class="impact__nodes" id="impactNodes"></div>
+    </div>
+
+    <div class="impact__legend reveal">
+      <div><strong>Designer:</strong> يخلق المنتج.</div>
+      <div><strong>Content:</strong> يجعل الناس تراه.</div>
+      <div><strong>Marketing:</strong> يجلب Reach و Traffic.</div>
+      <div><strong>Support:</strong> يبني الثقة.</div>
+      <div><strong>Sales:</strong> يحول الاهتمام إلى Orders.</div>
+      <div><strong>Data:</strong> يكتشف ما يعمل وما يحتاج تحسين.</div>
+      <div><strong>Developer:</strong> يطور الأدوات والأنظمة.</div>
+      <div><strong>Operations:</strong> ينظم العملية بالكامل.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 11 — BENEFITS ===== -->
+<section class="section benefits" id="benefits">
+  <div class="container">
+    <span class="eyebrow reveal">مكاسب</span>
+    <h2 class="section__title reveal">ماذا سيستفيد الشخص من الانضمام؟</h2>
+    <p class="section__lead reveal">
+      كل دور له مكاسبه الخاصة. دي مش وعود، دي فرص حقيقية بتتكون من الشغل نفسه.
+    </p>
+
+    <div class="benefits__grid" id="benefitsGrid"></div>
+  </div>
+</section>
+
+<!-- ===== SECTION 12 — GROWTH DASHBOARD ===== -->
+<section class="section dashboard" id="dashboard">
+  <div class="container">
+    <span class="eyebrow reveal">Dashboard</span>
+    <h2 class="section__title reveal">Growth Dashboard</h2>
+    <p class="section__lead reveal">
+      لوحة توضيحية بتوضح شكل الأرقام اللي ممكن نتابعها.
+      <strong>أرقام توضيحية وليست بيانات فعلية لـ Heend Made.</strong>
+    </p>
+
+    <div class="dash__cards reveal">
+      <div class="dash__card">
+        <span class="dash__ico">📦</span>
+        <b data-count="1248">0</b>
+        <span class="dash__label">Orders</span>
+      </div>
+      <div class="dash__card">
+        <span class="dash__ico">💰</span>
+        <b data-count="48500">0</b>
+        <span class="dash__label">Sales (EGP)</span>
+      </div>
+      <div class="dash__card">
+        <span class="dash__ico">👥</span>
+        <b data-count="8540">0</b>
+        <span class="dash__label">Potential Customers</span>
+      </div>
+      <div class="dash__card">
+        <span class="dash__ico">🔁</span>
+        <b data-count="31" data-suffix="%">0</b>
+        <span class="dash__label">Repeat Customers</span>
+      </div>
+      <div class="dash__card">
+        <span class="dash__ico">📈</span>
+        <b data-count="4.8" data-decimal="1" data-suffix="%">0</b>
+        <span class="dash__label">Conversion Rate</span>
+      </div>
+      <div class="dash__card">
+        <span class="dash__ico">📣</span>
+        <b data-count="125" data-suffix="K">0</b>
+        <span class="dash__label">Marketing Reach</span>
+      </div>
+    </div>
+
+    <p class="data__note reveal">
+      * الأرقام توضيحية فقط لعرض شكل الـ Dashboard، وليست بيانات حقيقية.
+    </p>
+
+    <div class="charts reveal">
+      <div class="chart-card">
+        <h3>Sales Over Time</h3>
+        <canvas id="chartSales" width="600" height="260"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Orders Over Time</h3>
+        <canvas id="chartOrders" width="600" height="260"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Product Performance</h3>
+        <canvas id="chartProducts" width="600" height="260"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Marketing Channels</h3>
+        <canvas id="chartChannels" width="600" height="260"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Customer Retention</h3>
+        <canvas id="chartRetention" width="600" height="260"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Conversion Funnel</h3>
+        <canvas id="chartFunnel" width="600" height="260"></canvas>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 13 — GROWTH LOOP ===== -->
+<section class="section loop" id="loop">
+  <div class="container">
+    <span class="eyebrow reveal">Growth Loop</span>
+    <h2 class="section__title reveal">الحلقة التي لا تتوقف</h2>
+    <p class="section__lead reveal">
+      المنتج بيولّد محتوى، المحتوى بيجلب جمهور، الجمهور بيتحول لعملاء،
+      والعملاء بيرجعوا بيانات بتطوّر المنتج من جديد.
+    </p>
+
+    <div class="loop__wrap reveal" id="loopWrap">
+      <svg viewBox="0 0 700 700" class="loop__svg" aria-hidden="true">
+        <defs>
+          <linearGradient id="loopGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#c9a27a" />
+            <stop offset="100%" stop-color="#5a3c28" />
+          </linearGradient>
+        </defs>
+        <circle cx="350" cy="350" r="250" fill="none"
+                stroke="url(#loopGrad)" stroke-width="1.6"
+                stroke-dasharray="6 10" class="loop__ring"/>
+        <circle cx="350" cy="350" r="10" fill="#5a3c28" class="loop__dot"/>
+        <g class="loop__labels" id="loopLabels"></g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 14 — EARLY STAGE ===== -->
+<section class="section early" id="early">
+  <div class="container">
+    <span class="eyebrow reveal">مرحلة البناء</span>
+    <h2 class="section__title reveal">انضم من مرحلة البناء</h2>
+    <p class="section__lead reveal">
+      الشخص اللي بينضم بدري بيكون جزء من صنع النظام نفسه، مش بس مستخدم ليه.
+    </p>
+
+    <div class="early__grid">
+      <div class="early__card reveal">
+        <h3>هتشارك في</h3>
+        <ul>
+          <li>بناء النظام</li>
+          <li>تطوير العمليات</li>
+          <li>تجربة الأفكار</li>
+          <li>بناء Portfolio</li>
+          <li>خبرة عملية حقيقية</li>
+          <li>التعاون مع تخصصات مختلفة</li>
+          <li>تطوير مهارات القيادة</li>
+          <li>بناء علاقات مهنية</li>
+        </ul>
+      </div>
+      <div class="early__card early__card--warn reveal">
+        <h3>من غير وعود</h3>
+        <ul>
+          <li>مش بنوعد بدخل مضمون</li>
+          <li>مش بنوعد بمبيعات مضمونة</li>
+          <li>مش بنوعد بوظيفة مضمونة</li>
+          <li>مش بنوعد بأرباح مضمونة</li>
+        </ul>
+        <p class="early__note">
+          اللي بنقدمه فرصة حقيقية للبناء والتعلّم، والنتائج بتعتمد على الشغل.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 15 — ROADMAP ===== -->
+<section class="section roadmap" id="roadmap">
+  <div class="container">
+    <span class="eyebrow reveal">Roadmap</span>
+    <h2 class="section__title reveal">خريطة النمو</h2>
+
+    <ol class="roadmap__list" id="roadmapList"></ol>
+  </div>
+</section>
+
+<!-- ===== SECTION 16 — FAQ ===== -->
+<section class="section faq" id="faq">
+  <div class="container">
+    <span class="eyebrow reveal">FAQ</span>
+    <h2 class="section__title reveal">أسئلة متكررة</h2>
+
+    <div class="faq__list" id="faqList"></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <div class="footer__brand">Heend Made</div>
+      <p>Interactive Business Presentation — Built with HTML, CSS &amp; Vanilla JS.</p>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> Heend Made. جميع الحقوق محفوظة.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
